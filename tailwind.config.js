@@ -7,6 +7,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: false,
   theme: {
     extend: {
       primary: '#202225',
@@ -24,6 +25,9 @@ module.exports = {
         },
       },
     },
+  },
+  spacing: {
+    88: '22rem',
   },
   plugins: [],
 }

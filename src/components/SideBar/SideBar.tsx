@@ -8,9 +8,9 @@ export const SideBar = (): JSX.Element => {
         flex flex-col
         bg-gray-900 text-white shadow">
             <SideBarIcon icon = {<CiBatteryFull size="28"/>} text='Battery Full'/>
-            <SideBarIcon icon = {<CiMug1 size="28"/>}/>
-            <SideBarIcon icon = {<CiTrash size="28"/>}/>
-            <SideBarIcon icon = {<CiLight size="28"/>}/>
+            <SideBarIcon icon = {<CiMug1 size="28" />} text='Mug'/>
+            <SideBarIcon icon = {<CiTrash size="28"/>} text='Trash'/>
+            <SideBarIcon icon = {<CiLight size="28"/>} text='Light'/>
         </div>
     );
 }
